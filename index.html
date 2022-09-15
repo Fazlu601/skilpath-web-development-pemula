@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header>
+        <img src="https://bit.ly/2EuFNQZ" alt="">
+        <p>World Rainforest Conservation</p>
+    </header>
+    <section>
+        <div id="video-background">
+            <video id="video" loop autoplay muted>
+                <source src="https://bit.ly/34qGnKk">
+            </video>
+        </div>
+        <div id="overlay-text">
+            <h1>Save The Rainforest</h1>
+            <h2>Save The Environment, Save The World.</h2>
+        </div>
+    </section>
+
+    <main>
+        <div id="petition">
+            <div id="petition-paragraph">
+                <h3 id="sub-header">A little background first</h3>
+                <p>The monsoon trough, alternaively knowns as the intertropical convergence zone, plays a significant role in creating the climatic condition necessary for the Earth's tropical rainforest: which arc distinct from monsoonal areas of seasonal tropical forest.</p>
+                <p>In 2018, the IUCN Red List featured 379 animal and 655 plant species as endangered Worldwide. The figures for 1998 were 1,102 and 1,197 respectively. Many nations have laws that protect conservation-reliant species: for example, forbidding hunting, restricting land development or creating protected areas.</p>
+                <table border="2" cellspacing="0">
+                    <thead align="center">
+                        <tr>
+                            <th>No</th>
+                            <th>English Name</th>
+                            <th>Region Code</th>
+                            <th>Population Trend</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Blue-White Hornhead</td>
+                            <td>EW</td>
+                            <td>Decreasing</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Amazones Flarewing</td>
+                            <td>AX</td>
+                            <td>Decreasing</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Shiny Tempestrain</td>
+                            <td>PO</td>
+                            <td>Decreasing</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Birds are a group of feathered theropod dinosaurs, and constitute the only living dinosaurs.Likewise, the closet living relatives of bird are the crocodilians. Birds are descendants of the primitive avialans which first appeared about 160 million years ago in China. According to DNA evidence, modern birds evolved in the Middle to Late Cretaceous, and diversified dramatically around the time of the Cretaceous.</p>
+
+                <p>The moment of extincion is generally considered to be the death of the last individual of the species, although the capacity to breed and recover may have been lost before this point (human-assisted breeding wasn't available yet). Because a species' potential range may be very large, determining this moment is not impossible, but extremely difficult. Paleogene extinction event 66 mya, which killed off the pterosaurus and all non-avian dinosaurs. Though they may not be extinct yet, they will soon be.</p>
+            </div>
+            <div id="petition-form">
+                <h3 id="form-title">Help us protect them</h3>
+                <form onSubmit="submit();">
+                    <input type="text" name="" placeholder="First Name" id="first-name">
+                    <input type="text" name="" placeholder="Last Name" id="last-name">
+                    <input type="text" name="" placeholder="City" id="city">
+                    <input type="number" placeholder="Zip Code" id="zip-code">
+                       <input   type="checkbox" id="check"> By submitting this form, I agree with the terms and condition provided by WRC. It is further acknowledeged that the terms and conditions may be updated by WRC with or without notice.
+                    <div id="warning"></div>
+                    <button  id="submit-form-button" type="submit">Sign This Petition</button>
+                </form>
+                    <button  id="clear-form-button" type="button" onclick="resetForm();">Clear</button>
+            </div>
+        </div>
+    </main>
+
+    <footer id="copyright-text">
+            <p>Copyright WRC 2020</p>
+    </footer>
+</body>
+</html>
